@@ -1,0 +1,364 @@
+p,
+.links, a:link,a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(119, 119, 119);
+    text-align: left;
+
+}
+
+.content {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    padding: 30px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+.topContainer {
+    width: 100%;
+    position: relative;
+    background: #FFF;
+}
+
+.container {
+    margin-top: 80px;
+
+}
+
+.portfolioholder {
+    width: 220px;
+    height: 170px;
+    float: left;
+    margin: 0 30px 30px 30px;
+}
+
+.contact {
+    background-color: white;
+}
+
+.links {
+    width: 70%;
+    float: left;
+    height: 100%;
+    line-height: 90px;
+    text-align: right;
+    color: rgb(119, 119, 119);
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    width: 30%;
+    height: 100%;
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 3.5;
+    font-weight: bold;
+
+
+}
+
+.footer {
+    background-color: #666666;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    display: inline-block;
+    height: 90px;
+    line-height: 10;
+    color: white;
+    z-index: 11;
+
+
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/dust_scratches.png");
+    width: 100%;
+    overflow: auto;
+}
+
+.top {
+    width: 960px;
+    margin: auto;
+    position: relative;
+    background-color: white;
+    height: 90px;
+
+}
+
+a {
+    text-decoration: none;
+
+    padding: 1px 1px;
+    background-color: white;
+
+}
+
+a:hover {
+    background-color: rgb(238, 238, 238);
+    opacity: 0.1;
+    padding:5px;
+}
+
+.section {
+    color: #4aa;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 35px;
+    height: auto;
+    max-height: 900px;
+}
+
+.column {
+    width: 33.33%;
+    float: left;
+    padding: 5px;
+    position: relative;
+    height:200px;
+padding-bottom: 50px;
+padding-right: 25px;
+}
+
+.portfolio {
+height: 200px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+z-index:1 ;
+display: block;
+margin-bottom: 50px;
+
+}
+   
+.columnjust{
+
+    float: right;
+}
+
+
+
+
+
+.row::after {
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.constrain {
+
+    width: 100%;
+    height: 100%;
+align-content: center;
+}
+
+input {
+
+    width: 100%;
+    height: 20px;
+}
+
+form {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.messagearea {
+
+    height: 200px;
+    width: 100%;
+    ;
+}
+h2{
+ position: absolute;
+ z-index: 10;
+text-align: center;   
+ width: 100%;
+ background-color: #4aaaa5;
+ height: 70px;
+ width: 299.97px;
+margin:0;
+top: 120px;
+color: white;
+line-height: 3;
+font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+button{
+
+    background-color: #4aaaa5;
+    color: white ;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+height: 40px;
+width: 100px;
+margin-top: 40px;
+font-size: 15px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 980px) {
+
+
+.content{
+
+width: 600px;
+padding:30px;
+overflow: auto;
+margin-left: 50px;
+height: 400px;
+height: auto;
+
+}
+.top{
+   height:60px;
+}
+
+.container{
+    margin-top: 40px;
+}
+
+
+.links{
+
+    line-height: 60px;
+
+}
+.name{
+
+    margin-left: 38px;
+    line-height: 54px;
+}
+
+.links{
+    width: 63%;
+}
+
+
+
+h2{
+    font-size: 21px;
+    top: 128px;
+    width: 280px;
+
+}
+
+.columnjust{
+    padding-right: 5px;
+
+
+}
+.column{
+
+    width:280px;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.links{
+
+   width: 37%;
+}
+
+
+html, body{
+    width: 768px;
+}
+
+.content{
+   margin: auto;
+   overflow: hidden;
+}
+
+.portfolioholder{
+
+    width: 315px;
+    height: 250px;
+
+}
+
+.column{
+    width: 247px;
+
+}
+h2{
+    width: 247px;
+}
+
+.columnjust{
+    padding-right: 5px;
+
+}
+}
+
+@media only screen and (max-width: 640px) {
+
+.name{
+  width:100%;
+  margin:0;
+  text-align: center;
+  padding: auto;
+}
+.links{
+width: 100%;
+text-align: center;
+}
+.content{
+    width: 540px;
+    margin:0 10px 0 10px;
+    margin-bottom: 300px;
+    height: auto;
+}
+
+.portfolioholder{
+    width: 462px;
+    height: 300px;
+}
+
+html, body{
+    width: 640px;
+}
+.portfolio{
+
+    height: 300px;
+}
+.column{
+
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 30px;
+    height: auto;
+}
+h2{
+    top: 200px;
+    width: 100%;
+}
+}
